@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   resources :candies
   resources :stores
+
+  root 'stores#index'
+  
 end
